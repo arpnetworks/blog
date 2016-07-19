@@ -1,6 +1,7 @@
 ---
 layout: {{ layout }}
 title: "{{ title }}"
+author: "{{ author }}"
 date: {{ date }}
 location: {{ location }}
 ---
