@@ -30,7 +30,7 @@ Logged in as admin
 $
 ```
 
-Now delete the user you wish:
+Now delete the user you wish with the following command:
 
 ```
 $ deis auth:cancel --username=johndoe
