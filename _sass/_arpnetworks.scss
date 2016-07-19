@@ -1,0 +1,58 @@
+a {
+    &:hover {
+        color: #008fd5;
+        text-decoration: none;
+    }
+}
+
+// Post content
+.post-content .article-body {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+
+  @include media-query($on-laptop) {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+  }
+}
+
+// RSS subscribe button
+.subscribe div {
+  padding-top: 10px;
+}
+
+.subscribe a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.subscribe a:hover {
+    border-bottom-color: transparent;
+}
+
+// Share links
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons li img {
+    padding-top: 2px;
+}
+
+// Footer
+.page-footer {
+    margin: 3px 0 0;
+    padding: 15px 0;
+}
+
+.footer-navigation {
+  padding-top: 10px;
+}

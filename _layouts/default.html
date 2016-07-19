@@ -1,0 +1,58 @@
+<html lang="en-US">
+
+{% include head.html %}
+
+<body>
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+<div class="top-line">
+    <div class="wrap">
+        <a href="https://portal.arpnetworks.com/accounts/login" class="login-btn"><span class="icon"></span>Customer Login</a>
+        <div class="phone"><span class="icon"></span>call us: +1 855 444-3145</div>
+        <div class="email"><span class="icon"></span> <a href="mailto:sales@arpnetworks.com">sales@arpnetworks.com</a></div>
+    </div>
+</div>
+
+<header class="page-header">
+    <div class="wrap">
+        <nav class="menu-wrap">
+            <div class="menu-toggle"></div>
+            <div class="menu">
+                <ul>
+                    <li class=""><a href="/">Home</a></li>
+                    <li class=""><a href="/vps">VPS</a></li>
+                    <li class=""><a href="/dedicated">DEDICATED</a></li>
+                    <li class=""><a href="/colocation">COLOCATION</a></li>
+                    <li class=""><a href="/bandwidth">TRANSIT</a></li>
+                    <li><a href="http://support.arpnetworks.com/kb">FAQ</a></li>
+                    <li><a href="http://support.arpnetworks.com">SUPPORT</a></li>
+                    <li class=""><a href="/contact">CONTACT</a></li>
+                    <li class=""><a href="/news">NEWS</a></li>
+                </ul>
+            </div>
+        </nav>
+
+                    <a href="/" class="logo"></a>
+            </div>
+</header>
+
+{% include header.html %}
+
+<div class="page-content">
+    <div class="wrap">
+        <div class="content">
+
+        {{ content }}
+
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>
