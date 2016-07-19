@@ -5,11 +5,24 @@ a {
     }
 }
 
+// Post header
+.post-header {
+    margin-bottom: $spacing-unit;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    @include media-query($on-laptop) {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+}
+
 // Post content
 .post-content .article-body {
   padding-left: 100px;
   padding-right: 100px;
-  font-weight: 300;
+  padding-bottom: 10px;
+  font-weight: 400;
   text-align: justify;
 
   @include media-query($on-laptop) {
@@ -22,6 +35,11 @@ a {
 #disqus_thread {
   padding-left: 100px;
   padding-right: 100px;
+
+  @include media-query($on-laptop) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 // RSS subscribe button
