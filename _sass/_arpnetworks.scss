@@ -7,8 +7,9 @@ a {
 
 // Post content
 .post-content .article-body {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-weight: 300;
   text-align: justify;
 
   @include media-query($on-laptop) {
