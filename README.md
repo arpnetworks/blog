@@ -19,6 +19,8 @@ Flesh out ``_drafts/this-is-my-title.markdown``, commit, and send us a Pull Requ
 
 We'll take care of putting in the proper timestamp, fix formatting to make it look great, etc...
 
+Please fill out the "About the author" section to your heart's content.  We want to give credit where credit is due!
+
 That's all there is to it!
 
 
