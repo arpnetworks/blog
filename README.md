@@ -10,4 +10,13 @@ You can fork this repo in order to make a guest post, submit corrections, etc...
 How to Make a Guest Post
 ------------------------
 
+If you're familiar with [Jekyll](https://jekyllrb.com/), you probably already know what to do.
+
+* Fork this repo
+* ``cp _drafts/TEMPLATE.markdown _drafts/this-is-my-title.markdown``
+
+Flesh out ``_drafts/this-is-my-title.markdown``, commit, and send us a Pull Request.
+
+We'll take care of putting in the proper timestamp, fix formatting to make it look great, etc...
+
 Copyright (c) 2016 [ARP Networks, Inc.](https://arpnetworks.com)
