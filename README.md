@@ -19,4 +19,8 @@ Flesh out ``_drafts/this-is-my-title.markdown``, commit, and send us a Pull Requ
 
 We'll take care of putting in the proper timestamp, fix formatting to make it look great, etc...
 
+That's all there is to it!
+
+
+
 Copyright (c) 2016 [ARP Networks, Inc.](https://arpnetworks.com)
