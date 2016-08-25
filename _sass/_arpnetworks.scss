@@ -32,6 +32,22 @@ a {
   }
 }
 
+pre {
+  text-align: left;
+}
+
+// None of the following works without the simple "pre" block above
+//
+// code {
+//   text-align: left;
+// }
+//
+// pre {
+//   > code {
+//     text-align: left;
+//   }
+// }
+
 #disqus_thread {
   padding-left: 100px;
   padding-right: 100px;
