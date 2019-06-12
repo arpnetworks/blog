@@ -32,4 +32,4 @@ How to Publish
 
 
 
-ropyright (c) 2016 - 2019 [ARP Networks, Inc.](https://arpnetworks.com)
+Copyright (c) 2016 - 2019 [ARP Networks, Inc.](https://arpnetworks.com)
