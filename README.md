@@ -23,6 +23,13 @@ Please fill out the "About the author" section to your heart's content.  We want
 
 That's all there is to it!
 
+How to Publish
+--------------
+
+::
+
+  bundle exec octopress deploy
 
 
-Copyright (c) 2016 [ARP Networks, Inc.](https://arpnetworks.com)
+
+ropyright (c) 2016 - 2019 [ARP Networks, Inc.](https://arpnetworks.com)
