@@ -13,8 +13,8 @@ outage occurs that affects their service.  I've decided to also publish
 one here, in case the experience can help someone else facing a similar
 battle in the future.
 
-Outage Report for host kct09
-----------------------------
+Outage Report
+-------------
 
 This notice is to inform you that your VPS service was affected by an unplanned
 outage at approximately 02/28/2019 11:30 PST.
