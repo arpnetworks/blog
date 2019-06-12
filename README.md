@@ -26,9 +26,9 @@ That's all there is to it!
 How to Publish
 --------------
 
-::
-
+```
   bundle exec octopress deploy
+```
 
 
 
