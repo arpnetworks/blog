@@ -27,6 +27,7 @@ How to Publish
 --------------
 
 ```
+  bundle exec jekyll build
   bundle exec octopress deploy
 ```
 
