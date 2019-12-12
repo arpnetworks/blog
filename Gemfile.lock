@@ -18,6 +18,8 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.1.5)
+    css_parser (1.7.1)
+      addressable
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -93,6 +95,7 @@ PLATFORMS
 
 DEPENDENCIES
   compass
+  css_parser
   jekyll
   jekyll-seo-tag
   octopress (~> 3.0)
