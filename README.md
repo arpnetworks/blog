@@ -31,6 +31,24 @@ How to Publish
   bundle exec octopress deploy
 ```
 
+Notes on Compass
+----------------
+
+How I installed Compass:
+
+```
+  bundle exec compass init compass-assets
+
+  # Do some stuff in compass-assets
+
+  bundle exec compass compile compass-assets
+  cp compass-assets/stylesheets/screen.css _sass/_compass.css
+```
+
+We can now @import ``compass`` in ``css/main.scss``
+
+This is not ideal and I typed this up from memory, mostly just so I
+wouldn't forget.
 
 
 Copyright (c) 2016 - 2019 [ARP Networks, Inc.](https://arpnetworks.com)
