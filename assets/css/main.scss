@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* Fonts (these have to come before the @import lines below */
+$monospace  : 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+$monospace  : 'IBM Plex Mono', Monaco, Consolas, "Lucida Console", monospace;
+$sans-serif : 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Logo */
+.site-logo img {
+  height: 30px;
+}
+
+/* Code snippets */
+code.highlighter-rouge {
+  background-color: #007bc4;
+  color: #ffffff;
+}
+
+/* Pull Quotes */
+$background-color: hsl(50, 5, 97);
+$black: hsl(200, 40, 10);
+$white: $background-color;
+$base-font-size: 1.5em;
+$base-line-height: 1.2em;
+
+blockquote.ludwig {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid lighten($black, 40%);
+  font-family: 'Roboto', serif;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 100;
+  font-style: normal;
+
+  &:before, &:after {
+      /*content: '\201C';*/
+      font-family: 'Sanchez';
+      color: lighten($black, 40%);
+   }
+   &:after {
+      /*content: '\201D';*/
+   }
+}
