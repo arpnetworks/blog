@@ -9,6 +9,7 @@ toc: true
 toc_label: Key Considerations
 classes: " "
 excerpt: "By outsourcing web app development, you can reduce project costs, improve product quality, and shorten the time to market"
+categories: consulting
 header:
   overlay_image: /assets/images/code-cropped-0.png
   overlay_filter: 0.5

@@ -4,4 +4,6 @@
 
 layout: tags
 author_profile: false
+sidebar:
+  nav: custom
 ---
