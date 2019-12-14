@@ -1,0 +1,15 @@
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,700&display=swap" rel="stylesheet">
+<!link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+<!-- chat bots -->
+{% if page.url contains 'ceph' %}
+  <script>window.pipedriveLeadboosterConfig = {base: 'leadbooster-chat.pipedrive.com',companyId: 7384263,playbookUuid: 'd63a23f8-bc80-4c7b-b467-4d57403d26ff',version: 2};</script><script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async></script>
+{% else %}
+{% endif %}
+
+<!-- end custom head snippets -->
