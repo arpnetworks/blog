@@ -276,6 +276,8 @@ jekyll-archives:
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
+  comments: all
+  # blanklines: true
   ignore:
     envs: development
 
