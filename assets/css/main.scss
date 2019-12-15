@@ -5,7 +5,6 @@
 @charset "utf-8";
 
 /* Fonts (these have to come before the @import lines below */
-$monospace  : 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
 $monospace  : 'IBM Plex Mono', Monaco, Consolas, "Lucida Console", monospace;
 $sans-serif : 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
@@ -48,4 +47,11 @@ blockquote.ludwig {
    &:after {
       /*content: '\201D';*/
    }
+}
+
+/* For Print */
+@media print {
+  span.page__hero-caption a::after {
+    display: none;
+  }
 }
