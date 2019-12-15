@@ -3,6 +3,7 @@ title: "How to Speed Test Your New Infiniband Card"
 date: 2016-11-07T19:21:09-08:00
 author: "Garry Dolley"
 tags: infiniband
+excerpt: A quick and reliable way to put your new Infiniband card to the test
 header:
   image2: /assets/images/speed-cropped-2.jpg
 ---

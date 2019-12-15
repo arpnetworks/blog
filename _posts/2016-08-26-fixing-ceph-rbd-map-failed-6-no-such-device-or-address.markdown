@@ -3,6 +3,7 @@ layout: single
 title: "Fixing Ceph 'rbd: map failed: (6) No such device or address'"
 date: 2016-08-26T19:46:31-07:00
 author: "Garry Dolley"
+excerpt: This was a bug, and here's the resolution, if it ever bites you
 tags: ceph
 ---
 

@@ -2,6 +2,7 @@
 title: "How to Transfer Cisco IOS from One Device to Another"
 date: 2016-08-25T01:18:54-07:00
 author: "Garry Dolley"
+excerpt: How I upgraded the IOS image on a Cisco device, using a different Cisco device
 tags: cisco
 ---
 

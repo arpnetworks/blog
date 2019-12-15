@@ -2,6 +2,7 @@
 title: "An Experience on Fixing Stale PGs in Ceph"
 date: 2016-09-06T03:03:12-07:00
 author: "Garry Dolley"
+excerpt: How we fixed a few stale PGs in our Ceph cluster, that seemed to not want to repair themselves on their own
 tags: ceph
 ---
 

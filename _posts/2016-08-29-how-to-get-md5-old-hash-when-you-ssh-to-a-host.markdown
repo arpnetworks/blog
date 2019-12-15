@@ -2,6 +2,7 @@
 title: "How to Get MD5 (Old) Hash When You SSH to a Host"
 date: 2016-08-29T16:09:59-07:00
 author: "Garry Dolley"
+excerpt: Newer systems will present a SHA256 hash, but sometimes you need to see the MD5 one
 tags: ssh
 ---
 

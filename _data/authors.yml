@@ -23,3 +23,9 @@ Garry Dolley:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/up_the_irons"
+Charles:
+  name             : "Charles"
+  avatar           : /assets/images/charles-small.png
+  bio              : "Technology Writer"
+  location         : "Prague, CZ"
+  email            :

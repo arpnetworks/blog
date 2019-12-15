@@ -3,7 +3,7 @@ layout: single
 title: "4 Key Considerations for Outsourcing Web App Development"
 subtitle: "Easy steps to help you get the results you need at a fraction of the cost"
 date: 2019-12-12T15:28:38-07:00
-author: Garry Dolley
+author: Charles
 tags: software development apps outsourcing
 toc: true
 toc_label: Key Considerations
@@ -14,6 +14,8 @@ header:
   overlay_image: /assets/images/code-cropped-0.png
   overlay_filter: 0.5
   caption: Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  teaser: /assets/images/code-teaser.png
+  og_image: /assets/images/code-teaser.png
 ---
 
 By outsourcing web app development, you can reduce project costs, improve

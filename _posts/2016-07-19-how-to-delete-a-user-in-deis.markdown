@@ -3,6 +3,7 @@ layout: single
 title: "How to Delete a User in Deis Workflow"
 date: 2016-07-19T04:29:58-07:00
 author: "Garry Dolley"
+excerpt: Deleting an unwanted user in Deis isn't always obvious
 tags: deis
 ---
 

@@ -2,6 +2,7 @@
 layout: single
 title: "LSI 9211-8i SAS Controller Spins at 'Initializing...' Forever"
 date: 2017-03-17T17:41:56-07:00
+excerpt: How we solved the spinning "Initializing..." problem of one of our LSI controllers
 author: "Garry Dolley"
 ---
 
