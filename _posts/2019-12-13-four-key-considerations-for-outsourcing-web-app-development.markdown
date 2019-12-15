@@ -34,8 +34,8 @@ You need to look towards a long-term collaboration
 Here are some of the most important considerations for developing a successful
 outsourcing relationship:
 
-#1. Finalize your business goals
---------------------------------
+1: Finalize your business goals
+-------------------------------
 
 As digital transformation becomes a key business driver in today’s
 technology-focused world, companies are placing great importance on innovation.
@@ -56,8 +56,8 @@ want a shopping cart that allows me to save items I can come back to later.’
 This will allow you to develop a list of questions to ask in the screening
 process and establish a realistic budget.
 
-#2. Find the right team
------------------------
+2: Find the right team
+----------------------
 
 In many circles, outsourcing is still considered as a way of doing things on
 the cheap with little regard to quality and support. While that can certainly
@@ -81,8 +81,8 @@ oversight and easier communications. A local company will also have a better
 view of your target market and business needs compared to one the other side of
 the world. Nearshoring often presents itself as a compromise between the two.
 
-#3. Select the best service model
----------------------------------
+3: Select the best service model
+--------------------------------
 
 When you’re outsourcing app development, it’s critical you choose the right
 service model. All too often do businesses make the mistake of outsourcing a
@@ -117,8 +117,8 @@ developers, offers much greater flexibility, making it ideal for more complex
 projects which need ongoing support or are hard to determine the scope of in
 advance.
 
-#4. Establish efficient communications
---------------------------------------
+4: Establish efficient communications
+-------------------------------------
 
 The most important component of any outsourcing relationship is also one many
 businesses get wrong – communication. By now, most of us are familiar with the
