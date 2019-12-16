@@ -298,9 +298,15 @@ defaults:
       related: true
       #sidebar:
       #  nav: custom
-      #  - scope:
-      #      path: ""
-      #      type: tag
-      #    values:
-      #      sidebar:
-      #        nav: custom
+  - scope:
+      path: ""
+      type: tag
+    values:
+      sidebar:
+        nav: custom
+  - scope:
+      path: ""
+      type: category
+    values:
+      sidebar:
+        nav: custom
