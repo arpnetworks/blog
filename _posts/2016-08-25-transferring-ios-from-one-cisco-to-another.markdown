@@ -4,6 +4,9 @@ date: 2016-08-25T01:18:54-07:00
 author: "Garry Dolley"
 excerpt: How I upgraded the IOS image on a Cisco device, using a different Cisco device
 tags: cisco
+header:
+  teaser: /assets/images/teasers/markus-spiske-iar-afB0QQw-unsplash-600x400.jpg
+  og_image: /assets/images/teasers/markus-spiske-iar-afB0QQw-unsplash-600x400.jpg
 ---
 
 Earlier this week, I needed to upgrade the IOS image on a device that had been

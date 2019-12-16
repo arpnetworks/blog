@@ -5,7 +5,8 @@ author: "Garry Dolley"
 tags: infiniband
 excerpt: A quick and reliable way to put your new Infiniband card to the test
 header:
-  image2: /assets/images/speed-cropped-2.jpg
+  teaser: /assets/images/teasers/chuttersnap-gts_Eh4g1lk-unsplash.jpg
+  og_image: /assets/images/teasers/chuttersnap-gts_Eh4g1lk-unsplash.jpg
 ---
 
 So, you grabbed a few Infiniband cards for cheap off eBay and are

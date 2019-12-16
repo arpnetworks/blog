@@ -5,6 +5,9 @@ date: 2016-10-26T23:21:08-07:00
 author: "Garry Dolley"
 tags: ceph
 excerpt: "No, it's probably not normal.  This was the case with our cluster."
+header:
+  teaser: /assets/images/teasers/adrian-dascal-Ce_gQ7Z0eAc-unsplash.jpg
+  og_image: /assets/images/teasers/adrian-dascal-Ce_gQ7Z0eAc-unsplash.jpg
 ---
 
 No, it's probably not normal.
