@@ -23,6 +23,9 @@ Garry Dolley:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/up_the_irons"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/garrydolley/"
 Charles:
   name             : "Charles"
   avatar           : /assets/images/charles-small.png
