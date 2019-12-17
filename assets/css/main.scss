@@ -7,6 +7,7 @@
 /* Fonts (these have to come before the @import lines below */
 $monospace  : 'IBM Plex Mono', Monaco, Consolas, "Lucida Console", monospace;
 $sans-serif : 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$pullquote  : 'Jomolhari', serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -33,9 +34,9 @@ blockquote.ludwig {
   position: relative;
   padding-left: 1em;
   border-left: 0.2em solid lighten($black, 40%);
-  font-family: 'Roboto', serif;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+  font-family: $pullquote;
+  font-size: $base-font-size * 0.8;
+  line-height: $base-line-height * 1.2;
   font-weight: 100;
   font-style: normal;
 
