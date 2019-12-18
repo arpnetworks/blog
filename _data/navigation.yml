@@ -3,3 +3,11 @@ custom:
     children:
       - title: "ARP Networks Home"
         url: https://arpnetworks.com
+  - title: Categories
+    children:
+      - title: "Consulting"
+        url: /categories/consulting
+  - title: Tags
+    children:
+      - title: All
+        url: /tags
