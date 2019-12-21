@@ -3,7 +3,7 @@ layout: single
 title: "4 Key Considerations for Outsourcing Web App Development"
 subtitle: "Easy steps to help you get the results you need at a fraction of the cost"
 date: 2019-12-12T15:28:38-07:00
-author: Charles
+author: Garry Dolley
 tags: software development apps outsourcing
 toc: true
 toc_label: Key Considerations
@@ -102,7 +102,7 @@ that the team needs to reach within a specified timeframe. This is ideal for
 companies which have their own IT departments and are able to organize app
 hosting and maintenance themselves. But if you don’t have your own team, you’ll
 be better off choosing a dedicated outsourced partner which provides full-cycle
-development and post-project support. This gives businesses more control over
+app development and post-project support. This gives businesses more control over
 the process, making it ideal for those with very specific needs, such as
 integrating existing business systems or adding complex functions which need
 extensive testing.
@@ -161,7 +161,6 @@ we provide the highest quality:
 
 to our 500+ clients.
 
-
 Start Your Project
 ------------------
 
@@ -175,9 +174,81 @@ us any time either by phone (1-855-444-3145) or fill out the form below.
 
 <div class="_form_1"></div><script src="https://rraskolnikov23.activehosted.com/f/embed.php?id=1" type="text/javascript" charset="utf-8"></script>
 
-<!--
-<div class="pipedriveWebForms" data-pd-webforms="https://pipedrivewebforms.com/form/05946329f6e636c0f1e4230f1f72c0007384263">
-  <script src="https://cdn.pipedriveassets.com/web-form-assets/webforms.min.js"></script>
-</div>
--->
+Terms
+-----
+
+A simple glossary that I didn't want to crowd the article above, so I saved it
+for the end.
+
+The following are a list of terms used in this article and a definition for
+each.  I felt this would be useful because the exact definition of certain
+terms in the app development and web development space have become blurry (see,
+it just happened right there).
+
+<dd>
+  <dt>App Development</dt>
+  <dl>
+
+Typically, when one thinks of "apps," they think of mobile applications that
+run on their phone.  As the transition from laptop/desktop usage to mobile
+usage has increased over the years, the term "app" is increasingly become
+ubiquitious with any kind of application, even if it doesn't exist on the
+mobile device.  An app with a great responsive design and that runs well in a
+mobile browser can often also be referred to as simply an "app", even though it
+is not a native mobile app to the phone itself.  App development can refer to
+the development of either kind of these applications by an individual, web
+development company, or application development company.
+
+  </dl>
+
+  <dt>Application Development</dt>
+  <dl>
+
+See app development above.
+
+  </dl>
+
+  <dt>Development Services</dt>
+  <dl>
+
+The contracted services of a company whose expertise is app development,
+whether it be mobile app development or web app development.
+
+  </dl>
+
+  <dt>Mobile App Development</dt>
+  <dl>
+
+See "Native Mobile App Development" below.
+
+  </dl>
+
+  <dt>Mobile Application</dt>
+  <dl>
+
+An app that is the end result of Native Mobile App Development (see below) and
+can also be called simply a "native app" or "mobile app."
+
+  </dl>
+
+  <dt>Native Mobile App Development</dt>
+
+  <dl>
+
+Refers to app development that is targeted exclusively for a mobile device and
+runs directly on that device without any "web" intermediary.  Native apps
+typically run faster and can provide a better user experience than web
+applications run simply within a mobile browser.
+
+  </dl>
+
+  <dt>Web Development</dt>
+  <dl>
+
+Typically refers to the development of applications that run in a web browser,
+which is quite typical these days.  This term is not generally used to refer to
+the development of native apps for mobile devices.
+
+  </dl>
+</dd>
 
