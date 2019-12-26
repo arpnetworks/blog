@@ -1,0 +1,21 @@
+// Breakpoints
+
+$phone              : '(min-width : 321px)'
+$phone-medium       : '(min-width : 351px)'
+$phone-large        : '(min-width : 401px)'
+$phone-big          : '(min-width : 470px)'
+$tablet-portrait    : '(min-width : 730px)'
+$tablet-landscape   : '(min-width : 1020px)'
+$desktop            : '(min-width : 64em)'
+$desktop-maximum    : '(min-width : 1360px)'
+
+$small: 600px !default
+$medium: 768px !default
+$medium-wide: 900px !default
+$large: 1024px !default
+$x-large: '(min-width : 64em)'
+$max-width: $x-large !default
+
+=media($media)
+  @media #{$media}
+    @content

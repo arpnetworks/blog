@@ -7,6 +7,7 @@ tags: ssh md5
 header:
   teaser: /assets/images/teasers/lewis-ngugi-f5pTwLHCsAg-unsplash.jpg
   og_image: /assets/images/teasers/lewis-ngugi-f5pTwLHCsAg-unsplash.jpg
+  alt: "Label on computer"
 ---
 
 When I'm on a Ubuntu 16.04 host and I SSH somewhere for the first time, I

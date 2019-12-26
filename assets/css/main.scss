@@ -12,6 +12,13 @@ $pullquote  : 'Jomolhari', serif;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+@import "document";
+@import "main-header";
+@import "main-logo";
+@import "content";
+@import "tag-cloud";
+@import "post-grid";
+
 /* Logo */
 .site-logo img {
   height: 30px;

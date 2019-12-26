@@ -4,6 +4,11 @@ date: 2016-09-06T03:03:12-07:00
 author: "Garry Dolley"
 excerpt: How we fixed a few stale PGs in our Ceph cluster, that seemed to not want to repair themselves on their own
 tags: ceph
+header:
+  overlay_image: /assets/images/2016-09-06.jpg
+  overlay_filter: 0.5
+  teaser: /assets/images/teasers/2016-09-06.jpg
+  og_image: /assets/images/code-teaser.png
 ---
 
 *Warning*: This is **not** a HOWTO, tutorial, or anything you should try

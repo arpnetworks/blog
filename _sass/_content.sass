@@ -1,0 +1,21 @@
+@import "helpers/media"
+
+.initial-content
+  padding-top: 64px
+
+  +media($x-large)
+    padding-top: 0
+
+  .sidebar
+    display: none
+    visibility: hidden
+
+    +media($x-large)
+      display: block
+      visibility: visible
+
+.search-content
+  padding-top: 64px
+
+  +media($x-large)
+    padding-top: 0

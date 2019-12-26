@@ -1,0 +1,64 @@
+{% assign navigation = site.data.navigation[include.nav] %}
+
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <ul class="nav__items">
+    {% for nav in navigation %}
+      <li>
+        {% if nav.url %}
+          {% comment %} internal/external URL check {% endcomment %}
+          {% if nav.url contains "://" %}
+            {% assign nav_url = nav.url %}
+          {% else %}
+            {% assign nav_url = nav.url | relative_url %}
+          {% endif %}
+
+          <a href="{{ nav_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+        {% else %}
+          <span class="nav__sub-title">{{ nav.title }}</span>
+        {% endif %}
+
+        {% if nav.children != null %}
+          {% if nav.title != 'Tags' %}
+            <ul>
+              {% for child in nav.children %}
+                {% comment %} internal/external URL check {% endcomment %}
+                {% if child.url contains "://" %}
+                  {% assign child_url = child.url %}
+                {% else %}
+                  {% assign child_url = child.url | relative_url %}
+                {% endif %}
+                {% comment %} set "active" class on current page {% endcomment %}
+                {% if child.url == page.url %}
+                  {% assign active = "active" %}
+                {% else %}
+                  {% assign active = "" %}
+                {% endif %}
+                <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            {% assign tags_max = 0 %}
+               {% for tag in site.tags %}
+                 {% if tag[1].size > tags_max %}
+                   {% assign tags_max = tag[1].size %}
+                 {% endif %}
+               {% endfor %}
+               <div class="tag-cloud">
+                 {% for i in (1..tags_max) reversed %}
+                   {% for tag in site.tags %}
+                     {% if tag[1].size == i %}
+                       <a class="tag-cloud__link" href='{{ site.baseurl }}/tags/{{ tag[0] | slugify }}' rel='{{ i }}'>
+                         {{ tag[0] }}
+                       </a>
+                     {% endif %}
+                   {% endfor %}
+                 {% endfor %}
+               </div>
+          {% endif %}
+
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -8,6 +8,7 @@ tags: lsi sas
 header:
   teaser: /assets/images/teasers/ash-from-modern-afflatus-iiRQxPCDQ_Y-unsplash.jpg
   og_image: /assets/images/teasers/ash-from-modern-afflatus-iiRQxPCDQ_Y-unsplash.jpg
+  alt: "Spinning top"
 ---
 
 We had this issue when popping an LSI 9211-8i SAS controller into an HP

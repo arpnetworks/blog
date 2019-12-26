@@ -8,6 +8,7 @@ excerpt: 'The most misleading error in the world'
 header:
   teaser: /assets/images/teasers/carlos-quintero-LdMR0eNEEi8-unsplash.jpg
   og_image: /assets/images/teasers/carlos-quintero-LdMR0eNEEi8-unsplash.jpg
+  alt: "Cat irony"
 ---
 
 This is yet another good example of why I hate

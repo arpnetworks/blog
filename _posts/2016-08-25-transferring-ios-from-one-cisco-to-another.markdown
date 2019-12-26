@@ -7,6 +7,7 @@ tags: cisco
 header:
   teaser: /assets/images/teasers/markus-spiske-iar-afB0QQw-unsplash-600x400.jpg
   og_image: /assets/images/teasers/markus-spiske-iar-afB0QQw-unsplash-600x400.jpg
+  alt: "Matrix screen"
 ---
 
 Earlier this week, I needed to upgrade the IOS image on a device that had been

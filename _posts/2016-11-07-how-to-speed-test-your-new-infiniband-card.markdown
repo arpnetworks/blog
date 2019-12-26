@@ -7,6 +7,7 @@ excerpt: A quick and reliable way to put your new Infiniband card to the test
 header:
   teaser: /assets/images/teasers/chuttersnap-gts_Eh4g1lk-unsplash.jpg
   og_image: /assets/images/teasers/chuttersnap-gts_Eh4g1lk-unsplash.jpg
+  alt: "Speedometer"
 ---
 
 So, you grabbed a few Infiniband cards for cheap off eBay and are
