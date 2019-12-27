@@ -8,6 +8,7 @@ excerpt: "We moved drives from one server to another, but new one wouldn't boot"
 header:
   teaser: /assets/images/teasers/florian-krumm-yLDabpoCL3s-unsplash.jpg
   og_image: /assets/images/teasers/florian-krumm-yLDabpoCL3s-unsplash.jpg
+  alt: "Motherboard"
 ---
 
 The Problem

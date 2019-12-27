@@ -5,6 +5,11 @@ date: 2016-08-26T19:46:31-07:00
 author: "Garry Dolley"
 excerpt: This was a bug, and here's the resolution, if it ever bites you
 tags: ceph
+header:
+  overlay_image: /assets/images/2016-08-26.jpg
+  overlay_filter: 0.1
+  teaser: /assets/images/teasers/2016-08-26.jpg
+  og_image: /assets/images/teasers/2016-08-26.jpg
 ---
 
 Tried to follow along here: [http://docs.ceph.com/docs/hammer/start/quick-rbd/](http://docs.ceph.com/docs/hammer/start/quick-rbd/)

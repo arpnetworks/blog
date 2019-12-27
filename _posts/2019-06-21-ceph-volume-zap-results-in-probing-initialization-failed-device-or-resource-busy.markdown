@@ -8,6 +8,7 @@ excerpt: "ceph-volume zap failed and here's how to fix it"
 header:
   teaser: /assets/images/teasers/russ-ward-18MJRuL4tUE-unsplash.jpg
   og_image: /assets/images/teasers/russ-ward-18MJRuL4tUE-unsplash.jpg
+  alt: "Electric welding"
 ---
 
 We were replacing a drive in our Ceph cluster and doing the usual

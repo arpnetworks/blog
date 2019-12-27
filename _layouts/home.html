@@ -1,0 +1,27 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator.page == 1 %}
+  <div class="post-grid">
+    {% for post in paginator.posts limit:3 %}
+      {% include archive-single.html type="post-grid" %}
+    {% endfor %}
+  </div>
+
+  {% for post in paginator.posts offset:3 %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  {% for post in paginator.posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+
+
+{% include paginator.html %}

@@ -296,8 +296,8 @@ defaults:
       comments: true
       share: false
       related: true
-      #sidebar:
-      #  nav: custom
+      sidebar:
+        nav: custom
   - scope:
       path: ""
       type: tag
@@ -310,3 +310,7 @@ defaults:
     values:
       sidebar:
         nav: custom
+after_footer_scripts:
+  - /assets/js/main-header.js
+  - /assets/js/jquery.tagcloud.js
+  - /assets/js/tag-cloud.js

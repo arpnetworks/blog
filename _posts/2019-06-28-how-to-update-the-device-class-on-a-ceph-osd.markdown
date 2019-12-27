@@ -11,6 +11,7 @@ header:
   caption: Photo by [Lorenzo Herrera](https://unsplash.com/@lorenzoherrera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   teaser: /assets/images/lorenzo-teaser.jpg
   og_image: /assets/images/lorenzo-teaser.jpg
+  alt: "Computer park"
 ---
 
 Several SAS OSDs in our Ceph cluster were replaced with faster SSDs

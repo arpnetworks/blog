@@ -1,0 +1,32 @@
+@import "helpers/media"
+
+.post-grid
+  display: flex
+  flex-direction: column
+
+  +media($tablet-portrait)
+    flex-direction: row
+    justify-content: space-between
+
+  &__item
+    &:not(:last-child)
+      margin-bottom: 2em
+
+      +media($tablet-portrait)
+        margin-bottom: 0
+
+    +media($tablet-portrait)
+      flex: 0 0 31%
+
+  .archive__item-title
+    margin-top: .25em
+
+    +media($tablet-portrait)
+      font-size: 1.1em
+
+  .page__meta
+    margin: .25em 0
+    font-size: .6em
+
+  .archive__item-excerpt
+    margin-bottom: 0

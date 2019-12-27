@@ -16,6 +16,7 @@ header:
   caption: Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   teaser: /assets/images/code-teaser.png
   og_image: /assets/images/code-teaser.png
+  alt: "App development"
 ---
 
 By outsourcing web app development, you can reduce project costs, improve
