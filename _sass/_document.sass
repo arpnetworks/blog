@@ -19,11 +19,14 @@
       visibility: hidden
 
   &.menu_opened
-    position: fixed
+    overflow: hidden
 
     &::after
       visibility: visible
       opacity: 1
+
+    #main
+      pointer-events: none
 
   .nav__items
     opacity: 1
