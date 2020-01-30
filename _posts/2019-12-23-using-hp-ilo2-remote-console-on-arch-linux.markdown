@@ -1,15 +1,19 @@
 ---
 layout: single
 title: "Using HP iLO2 Remote Console on Arch Linux in 2020"
-date: 2019-12-22T14:18:41-07:00
+date: 2020-01-29T14:18:41-07:00
 author: Garry Dolley
 tags: ilo2 archlinux
-excerpt: "Use an old Firefox and Java to run the iLO2 Remote Video Console"
+excerpt: "How to use an old Firefox and Java to run the iLO2 Remote Video Console"
 toc: true
 #classes: " "
 header:
-  teaser2: /assets/images/lorenzo-teaser.jpg
-  og_image2: /assets/images/lorenzo-teaser.jpg
+  overlay_image: /assets/images/white-hp-laptop-844733.jpg
+  overlay_filter: 0.5
+  caption: Photo by [Samer Daboul](https://www.pexels.com/photo/black-wireless-headphone-near-white-hp-laptop-844733/)
+  teaser: /assets/images/teasers/white-hp-laptop-844733.jpg
+  og_image: /assets/images/teasers/white-hp-laptop-844733.jpg
+  alt: "HP laptop"
 ---
 
 Overview
@@ -48,7 +52,8 @@ However, there is good news.  You can install and run an older version
 of Firefox, from the ESR line (Extended Support Release), and support
 for Java applets will be there, and the iLO2 console will work.  You'll
 need an ESR version up to or below 52ESR, and then an old version of
-Java 7, and I'll show you below how to get all those things working.
+Java 7, and I'll show you below how to get all those things working on
+Arch Linux (my preferred desktop OS on my ThinkPad X1 Carbon).
 
 Install Firefox ESR
 -------------------
@@ -135,7 +140,7 @@ prefered tool.
   ```
 
   Once `makepkg` completes successfully, you'll have a package file that
-  Arch Linux can install using regular ol' `pacman`:
+  Arch Linux can install using regular ol' pacman:
 
   ```sh
   $ sudo pacman -U firefox-esr-bin-52.6.0-1-x86_64.pkg.tar.xz
@@ -166,8 +171,9 @@ account right on the spot.
 
 * Download JRE7 runtime from Oracle's site
 
-  The trizen command above will tell you which URL to go to.  Once
-  there, you'll want to get the file: `jre-7u80-linux-x64.tar.gz`
+  The trizen command above will tell you which URL to go to (I would
+  have pasted it here, but I honestly forgot it).  Once there, you'll
+  want to get the file: `jre-7u80-linux-x64.tar.gz`
 
   When you try to download this file, it'll make you go through a dance
   of accepting something legal, signing up for a free Oracle account,
@@ -267,6 +273,12 @@ If you get a `ClassNotFoundException`, don't panic, just click once on
 the applet where the remote console should be and it'll download what it
 needs.  I only had to do this once, then never again.
 
+And that's it!
+
+You should see your server's video console in your browser and you can
+interact with it as you normally would, like in the old days, or on an
+old laptop/desktop.
+
 A Better Way
 ------------
 
@@ -277,17 +289,17 @@ decent remote console?!
 
 One of the biggest reasons we developed our [ARP Thunder™ Cloud
 Dedicated Server](https://www.arpnetworks.com/dedicated) product several
-years ago was to provided a solution to this problem.  Get the resources
-of a dedicated server, but be able to manage it with the ease of a
-virtual machine, especially with regards to out-of-band (OOB)
-management.
+years ago over at [ARP Networks](https://arpnetworks.com) was to
+provided a solution to this problem.  Get the resources of a dedicated
+server, but be able to manage it with the ease of a virtual machine,
+especially with regards to out-of-band (OOB) management.
 
 With ARP Thunder™, you can get a video-based OOB management console by
 simply clicking "View Console" in our
 [Portal](https://portal.arpnetworks.com), which works in any modern web
 browser without any plugins required.  You can also get a serial-based
 OOB [management console over
-SSH](https://arpnetworks.com/VPS/management-console).
+SSH](https://arpnetworks.com/vps/management-console).
 
 How cool is that?! :)
 
