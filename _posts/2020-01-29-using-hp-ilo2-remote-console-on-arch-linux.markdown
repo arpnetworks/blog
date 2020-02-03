@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Using HP iLO2 Remote Console on Arch Linux in 2020"
+title: "Using HP iLO2 Remote Console on Linux in 2020"
 date: 2020-01-29T14:18:41-07:00
 author: Garry Dolley
-tags: ilo2 archlinux
+tags: ilo2 archlinux linux
 excerpt: "How to use an old Firefox and Java to run the iLO2 Remote Video Console"
 toc: true
 #classes: " "
