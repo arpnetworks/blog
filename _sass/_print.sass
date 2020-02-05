@@ -1,18 +1,16 @@
 @media print
   body
     color: #000
+    -webkit-print-color-adjust: exact
+    print-color-adjust: exact
 
     .wrapper
       .page__title
-        text-shadow: none
-        color: #000
 
     p
       text-shadow: none !important
-      color: #000 !important
       max-width: none
 
-  .page__hero-caption,
   .main-header__search
     display: none
 
@@ -26,4 +24,14 @@
     margin: auto
 
   .page__hero--overlay
-    padding: 1em 0
+    padding: 1cm 0
+
+  // code fragment
+  .highlighter-rouge,
+  figure.highlight
+    background: #f8f8f8 !important
+    border: 2px solid #ccc
+    color: #000 !important
+
+    span
+      color: #000 !important
