@@ -33,10 +33,10 @@
       {% endif %}
       {% if page.read_time %}
         <p class="page__meta">
-          <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
-          <span class="comments-count"><i class="far fa-comment" aria-hidden="true"></i>
-            <a href="#disqus_thread" data-disqus-identifier="{{ post.id }}">Start the discussion</a>
-        </span>
+          <span class="read-time"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</span>
+          <span class="comments-count"><i class="far fa-comment" aria-hidden="true"></i> <a href="{{ post.url |
+            relative_url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Start the discussion</a>
+          </span>
         </p>
       {% endif %}
       {% if page.header.cta_url %}
