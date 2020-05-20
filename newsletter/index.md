@@ -6,7 +6,8 @@ layout: blank
 title: Newsletter
 site_title: ARP Networks
 description: Get our quarterly newsletter to your Inbox
-canonical_url: https://arpnetworks.com/newsletter
+canonical_url: "https://arpnetworks.com/newsletter"
+hide_footer_links: true
 ---
 
 Quarterly Newsletter 🆕
