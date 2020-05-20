@@ -1,8 +1,12 @@
 custom:
   - title: Places
     children:
-      - title: "ARP Networks Home"
+      - title: "Home"
         url: https://arpnetworks.com
+      - title: "Customer Portal"
+        url: https://portal.arpnetworks.com
+      - title: "Newsletter"
+        url: https://arpnetworks.com/newsletter
   - title: Tags
     children:
       - title: All
