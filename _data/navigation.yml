@@ -7,6 +7,8 @@ custom:
         url: https://portal.arpnetworks.com
       - title: "Newsletter"
         url: https://arpnetworks.com/newsletter
+      - title: "serve.sh"
+        url: https://serve.sh
   - title: Tags
     children:
       - title: All
