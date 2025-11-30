@@ -4,4 +4,6 @@ _site
 .jekyll-metadata
 vendor
 
+_site-*
+
 publish.sh
