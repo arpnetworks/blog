@@ -31,3 +31,5 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Our chosen theme
 gem "minimal-mistakes-jekyll", "=4.19.1"
+
+gem "faraday-retry"
